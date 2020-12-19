@@ -22,7 +22,7 @@ Deploy the application onto a real iOS device. The application can now be launch
 The next step is to create an HTML page to launch the app. Using a text editor, create an HTML file and name it MyApp.html. Populate the file as follows:
 
 Without paramaters:
-
+https://github.com/Abbiee/App2Browser2AppDeeplink/blob/main/index1.html
 !DOCTYPE html>
 <html>
 <body>
@@ -31,7 +31,7 @@ Without paramaters:
 </html>
 
 With parametres :
-
+https://github.com/Abbiee/App2Browser2AppDeeplink/blob/main/index.html
 !DOCTYPE html>
 <html>
 <body>
@@ -45,3 +45,8 @@ On the iOS device with the SmartAppBanner app installed, launch Safari by clicki
 https://irynasholosova.000webhostapp.com/
 
 Once the page is loaded, click the Launch SmartAppBanner app link (see Figure 2). The SmartAppBanner app will now launch.
+
+The redirect URI is captured in our application using the Appdelegate through :
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url
+  options:(NSDictionary<NSString *,id> *)options  
