@@ -11,7 +11,7 @@ Launching Your App Via URL
 Using Xcode, create a single-view application and name it SmartAppBanner. To allow your app to be launched using an URL, you’ll need to add a few entries to the Info.plist file, so let’s look at how to do that.
 
 Select the Info.plist file in the project and add a new row. Name the new key CFBundleURLTypes and expand the newly added key. In item 0, add another key named CFBundleURLSchemes and set its Item 0 value to “smartappbanner”. Add one more key named CFBundleURLName. Set its value to “net.learn2develop.SmartAppBanner”. Figure 1 shows the keys that are added.
-
+https://github.com/Abbiee/App2Browser2AppDeeplink/blob/main/lee7_fig01.jpg
 With these new settings, you can open the app by using the smartappbanner:// scheme. CFBundleURLName is a unique identifier for the scheme.
 
 NOTE
@@ -23,7 +23,7 @@ The next step is to create an HTML page to launch the app. Using a text editor, 
 
 Without paramaters:
 
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
   <body>
     <a href="smartappbanner://">Launch SmartAppBanner app</a><br/>
@@ -32,7 +32,7 @@ Without paramaters:
 
 With parametres :
 
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
   <body>
     <a href="smartappbanner://&code=112233">Launch SmartAppBanner app</a><br/>
