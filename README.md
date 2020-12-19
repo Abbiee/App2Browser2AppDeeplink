@@ -25,18 +25,18 @@ Without paramaters:
 
 !DOCTYPE html>
 <html>
-  <body>
-    <a href="smartappbanner://">Launch SmartAppBanner app</a><br/>
-  </body>
+<body>
+<a href="smartappbanner://">Launch SmartAppBanner app</a><br/>
+</body>
 </html>
 
 With parametres :
 
 !DOCTYPE html>
 <html>
-  <body>
-    <a href="smartappbanner://&code=112233">Launch SmartAppBanner app</a><br/>
-  </body>
+<body>
+<a href="smartappbanner://&code=112233">Launch SmartAppBanner app</a><br/>
+</body>
 </html>
 Save the file to a web server. For example, I have used 000webhost.com to paste my index.html in Public folder.
 
